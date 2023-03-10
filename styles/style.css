@@ -77,8 +77,14 @@ main h1{
     padding-top: 15px;
 }
 
+main div{
+    max-width: 70vw;
+}
+
 main img{
-    border-radius: 50%;
+    border-radius: 200px;
+    max-width: 250px;
+    max-height: 250px;
     border: 2px solid #272727;
     background-color: var(--cor0);
 }
