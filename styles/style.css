@@ -56,9 +56,9 @@ main h1{
     text-align: center;
 }
 
-.imgs{
+img{
     border-radius: 50%;
-    border: 2px solid --cor4;
+    border: 2px solid #272727;
     background-color: var(--cor0);
 }
 
