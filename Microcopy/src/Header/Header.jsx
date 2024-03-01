@@ -23,11 +23,11 @@ function Header (){
             </div>
             <div className={styles.itensMenu}>
                 <a href="#">{(widthSize > 1000) ? 'MENU' : <span class="material-symbols-outlined">home</span>}</a>
-                <a href="#">{(widthSize > 1000) ? 'IMPRESSOS' : <span class="material-symbols-outlined">home</span>}</a>
-                <a href="#">DIGITAIS</a>
-                <a href="#">CARIMBOS</a>
-                <a href="#">PAPELARIA</a>
-                <a href="#">DIVERSOS</a>
+                <a href="#">{(widthSize > 1000) ? 'IMPRESSOS' : <span class="material-symbols-outlined">photo_prints</span>}</a>
+                <a href="#">{(widthSize > 1000) ? 'DIGITAIS' : <span class="material-symbols-outlined">web_stories</span>}</a>
+                <a href="#">{(widthSize > 1000) ? 'CARIMBOS' : <span class="material-symbols-outlined">approval</span>}</a>
+                <a href="#">{(widthSize > 1000) ? 'PAPELARIA' : <span class="material-symbols-outlined">description</span>}</a>
+                <a href="#">{(widthSize > 1000) ? 'DIVERSOS' : <span class="material-symbols-outlined">note_stack</span>}</a>
             </div>
             <div className={styles.perfil}>
                 <button><span class="material-symbols-outlined">account_circle</span></button>
